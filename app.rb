@@ -15,8 +15,8 @@ class App < Sinatra::Base
     @pg = params["pg"]
     @sg = params["sg"]
     @sf = params["sf"]
-    @power_forward = params["power_forward"]
-    @center = params["center"]
+    @pf = params["pf"]
+    @c = params["c"]
     
     erb :team 
   end 
