@@ -11,10 +11,10 @@ class App < Sinatra::Base
   
   post '/team' do
     @team_name = params["team_name"]
-    @coach = params["team_name"]
-    @team_name = params["team_name"]
-    @team_name = params["team_name"]
-    @team_name = params["team_name"]
+    @coach = params["coach"]
+    @point_guard = params["point_guard"]
+    @shooting_guard = params["shooting_guard"]
+    @small_forward = params["team_name"]
     @team_name = params["team_name"]
     @team_name = params["team_name"]
     
