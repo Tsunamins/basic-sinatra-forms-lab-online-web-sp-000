@@ -9,7 +9,7 @@ class App < Sinatra::Base
   
   
   
-  post '/team' do
+  post '/newteam' do
     @team_name = params["team_name"]
     @coach = params["coach"]
     @point_guard = params["point_guard"]
